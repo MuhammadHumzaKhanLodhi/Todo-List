@@ -1,27 +1,4 @@
-// #! /usr/bin/env node
-// import inquirer from "inquirer";
-// let toDoList = [];
-// let condition = true;
-// while(condition){
-//     let addTask= await inquirer.prompt(
-//         [
-//             {
-//                 name : "todo",
-//                 type: "input",
-//                 message: "Groceries"
-//             },
-//             {
-//                 name : "addMore",
-//                 type : "confirm",
-//                 message : "Anything else",
-//                 default : "false"
-//             }
-//         ]
-//     );
-//     toDoList.push(addTask.todo);
-//     condition = addTask.addMore
-//     console.log(toDoList)
-// }
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let todo = [];
 while (true) {
